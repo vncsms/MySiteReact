@@ -1,4 +1,27 @@
-.MainPage {
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
+.TopHead {
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+}
+
+.TopHead li {
+    float: left;
+    list-style-type: none;
+    padding-right: 10px;
+}
+
+.TopHead a {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.TopHead .active {
+    text-decoration: underline;
+}
+
+.TopLinks {
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Courier New";
 }
