@@ -1,0 +1,60 @@
+.bigContainer {
+	width: 100%;
+}
+.pageTitle {
+	background-color: #fff;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+.livroTitle {
+	text-align: center;
+}
+
+.livroContent {
+    margin: 0 auto;	
+    width: fit-content;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 50px;
+    border-bottom: 1px solid;
+    border-color: aliceblue;
+}
+.livroAvatar {
+	width: 350px;
+	border-radius: 5px;
+}
+
+.sinopse {
+	font-size: 18px;
+	line-height: 1.4285em;
+	font-weight: normal;
+	font-family: "PT Serif","Helvetica Neue",sans-serif;
+}
+
+.sinopseContainer {
+	padding-left: 100px;
+	width: 300px;
+}
+
+.row {
+	flex-wrap: nowrap;
+	display: flex;
+	width: 800px;
+	background-color: #fff;
+}
+
+.avatar {
+	padding-top: 120px;
+}
+
+.buy {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.optionBuy {
+	font-size: 17px;
+	font-weight: normal;
+}
+

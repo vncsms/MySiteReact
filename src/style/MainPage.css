@@ -17,11 +17,12 @@
 }
 
 .TopHead .active {
-    text-decoration: underline;
+	color: #ba007c;
 }
 
 .TopLinks {
     padding: 10px;
     font-size: 14px;
     font-family: "Courier New";
+    text-decoration: none; 
 }
