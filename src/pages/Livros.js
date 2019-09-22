@@ -3,6 +3,12 @@ import retornodafenix from '../images/retornodafenix.jpg';
 import React, { Component } from 'react';
 
 export default class Livros extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
   render() {
     return (
       <div className="bigContainer">
@@ -32,21 +38,18 @@ export default class Livros extends Component {
               Entre montanhas e florestas, sob a água e desertos,
               Agatha e seus amigos irão enfrentar perigos, para descobrir
               a verdade por trás dos grugs. E combatê-los antes do retorno
-               do destemido Virian, um mago que outrora fora 
+               do destemido Virian, um mago que outrora fora considerado imbátivel.
               </p>
             </div>
           </div>
-        <div>
-          <p className="buy">Onde Comprar</p>
-          <ul>
-            <li className="optionBuy">
-              <a target="_blank" href="https://www.amazon.com.br/dp/B07NVSGTYZ">Ebook</a>
-            </li>
-            <li className="optionBuy">
-              Livro Impresso
-            </li>
-          </ul>
-        </div>
+          <div>
+            <p className="buy">Onde Comprar</p>
+            <ul>
+              <li className="optionBuy">
+                <a target="_blank" rel="noopener noreferrer"  href="https://www.amazon.com.br/dp/B07NVSGTYZ">Ebook</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     );
