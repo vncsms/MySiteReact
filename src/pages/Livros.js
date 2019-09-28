@@ -11,17 +11,17 @@ export default class Livros extends Component {
 
   render() {
     return (
-      <div className="bigContainer">
-        <div className="pageTitle">
+      <div className="big-container">
+        <div className="page-title">
           Livros
         </div>
-        <div className="livroContent">
-          <p className="livroTitle">As Crônicas Do Infinito: O Retorno da Fênix</p>
+        <div className="livro-content">
+          <p className="livro-title">As Crônicas Do Infinito: O Retorno da Fênix</p>
           <div className="row">
             <div className="avatar">
-              <img src={retornodafenix} alt="true" className="livroAvatar"/>
+              <img src={retornodafenix} alt="true" className="livro-avatar"/>
             </div>
-            <div className="sinopseContainer">
+            <div className="sinopse-container">
               <p>Sinopse</p>
               <p className="sinopse">
               Agatha uma excelente maga do tempo e uma adorável irmã,
@@ -45,7 +45,7 @@ export default class Livros extends Component {
           <div>
             <p className="buy">Onde Comprar</p>
             <ul>
-              <li className="optionBuy">
+              <li className="option-buy">
                 <a target="_blank" rel="noopener noreferrer"  href="https://www.amazon.com.br/dp/B07NVSGTYZ">Ebook</a>
               </li>
             </ul>

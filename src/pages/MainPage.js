@@ -26,12 +26,12 @@ export default class MainPage extends Component {
     return (
       <HashRouter>
         <div>
-          <div className="TopHead">
+          <div className="top-head">
             <ul className="header">
-             <li className="TopLinks"><NavLink exact to="/">Blog</NavLink></li>
-              <li className="TopLinks"><NavLink to="/autor">Autor</NavLink></li>
-              <li className="TopLinks"><NavLink to="/Livros">Livros</NavLink></li>
-              <li className="TopLinks"><NavLink to="/galeria">Galeria</NavLink></li>
+             <li className="top-links"><NavLink exact to="/">Blog</NavLink></li>
+              <li className="top-links"><NavLink to="/autor">Autor</NavLink></li>
+              <li className="top-links"><NavLink to="/Livros">Livros</NavLink></li>
+              <li className="top-links"><NavLink to="/galeria">Galeria</NavLink></li>
             </ul>
           </div>
           <div className="content">
