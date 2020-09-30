@@ -38,6 +38,12 @@ export const MainPageMenu = styled.ul`
         float: right;
         color: white;
         margin: 5px 0px 0px auto;
+        font-size: 20px;
+    }
+
+    a {
+        text-decoration:none;
+        color:inherit;
     }
 `;
 export const MainPageLinks = styled.div`
@@ -57,7 +63,7 @@ export const MainPageLinks = styled.div`
 `;
 
 export const MainPageContent = styled.div`
-    background-color: red;
     display: flex;
     flex: 1;
+    padding: 20px 10px;
 `;

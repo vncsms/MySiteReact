@@ -2,7 +2,7 @@ export const books = [
   {'title': 'As Crônicas Do Infinito: O Retorno da Fênix',
    'image': '../images/retornodafenix.jpg',
    'body': '<p>Sinopse</p>' +
-            ' <p className="sinopse">' +
+            ' <p>' +
             ' Agatha uma excelente maga do tempo e uma adorável irmã,' +
             ' treinada pelo melhor mago do reino, vê seu mundo mudar' +
             ' quando Kirin, seu tutor, faz uma previsão sobre a nova ' +
@@ -13,7 +13,7 @@ export const books = [
             ' eles serão capazes de lidar. E trilharão uma jornada que' +
             ' decidirá o futuro do reino de Jirajan.' +
             ' </p>' +
-            ' <p className="sinopse">' +
+            ' <p>' +
             ' Entre montanhas e florestas, sob a água e desertos,' +
             ' Agatha e seus amigos irão enfrentar perigos, para descobrir' +
             ' a verdade por trás dos grugs. E combatê-los antes do retorno' +
